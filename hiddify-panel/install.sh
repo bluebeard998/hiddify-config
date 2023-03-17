@@ -20,7 +20,7 @@ done
 
 #pip3 --disable-pip-version-check install -q -U hiddifypanel
 # pip uninstall -y hiddifypanel 
-# pip --disable-pip-version-check install -q -U git+https://github.com/hiddify/HiddifyPanel
+# pip --disable-pip-version-check install -q -U git+https://github.com/bluebeard998/HiddifyPanel
 
 # ln -sf $(which gunicorn) /usr/bin/gunicorn
 ln -sf $(uwsgi) /usr/local/bin/uwsgi
