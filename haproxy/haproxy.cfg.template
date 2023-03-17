@@ -136,11 +136,11 @@ backend shadowtls_decoy
 # option httplog
 # option http-server-close
 # option forwardfor except 127.0.0.1  # Add X-Forwarded-For header except for HAProxy itself
-# log /opt/hiddify/hiddify-config/log/system/haproxy.log local0
+# log /opt/bluebeard998/hiddify-config/log/system/haproxy.log local0
 
 # # Error logs
 # option dontlog-normal
-# log /opt/hiddify/hiddify-config/log/system/haproxy.err.log local0
+# log /opt/bluebeard998/hiddify-config/log/system/haproxy.err.log local0
 
 
 
