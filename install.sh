@@ -82,8 +82,8 @@ function set_config_from_hpanel(){
 
     
 
-        setenv SERVER_IP `curl --connect-timeout 1 -s https://v4.ident.me/`
-        setenv SERVER_IPv6 `curl  --connect-timeout 1 -s https://v6.ident.me/`
+        setenv SERVER_IP `127.0.0.1`
+        setenv SERVER_IPv6 `127.0.0.1`
 
         function get () {
                 group=$1
