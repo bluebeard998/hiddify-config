@@ -30,7 +30,7 @@ function main(){
         echo "DEVLEOP: hiddify panel version current=$CURRENT latest=$LATEST"
         if [[ FORCE == "true" || "$LATEST" != "$CURRENT" ]];then
             pip3 uninstall -y hiddifypanel
-            pip3 install -U git+https://github.com/hiddify/HiddifyPanel
+            pip3 install -U git+https://github.com/bluebeard998/HiddifyPanel
             echo $LATEST>$INSTALL_DIR/hiddifypanel/VERSION
             echo "__version__='$LATEST'">$INSTALL_DIR/hiddifypanel/VERSION.py
             UPDATE=1
