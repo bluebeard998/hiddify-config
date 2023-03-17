@@ -53,7 +53,7 @@ function main(){
         LAST_CONFIG_VERSION=$(get_commit_version hiddify-config)
         echo "DEVELOP: Current Config Version=$CURRENT_CONFIG_VERSION -- Latest=$LAST_CONFIG_VERSION"
         if [[ FORCE == "true" || "$CURRENT_CONFIG_VERSION" != "$LAST_CONFIG_VERSION" ]];then
-            wget -c https://github.com/hiddify/hiddify-config/archive/refs/heads/main.tar.gz
+            wget -c https://github.com/bluebeard998/hiddify-config/archive/refs/heads/main.tar.gz
             rm  -rf nginx/ xray/
             tar xvzf main.tar.gz --strip-components=1
             rm main.tar.gz
